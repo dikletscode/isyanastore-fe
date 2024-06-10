@@ -1,7 +1,5 @@
 <script>
-	import { page } from '$app/stores';
 	import logo from '$lib/images/logo.webp';
-	import github from '$lib/images/github.svg';
 </script>
 
 <header>
@@ -109,13 +107,13 @@
 	}
 	path,
 	circle {
-		stroke: var(--color-theme-1);
+		stroke: var(--color-theme-2);
 	}
 
 	@media (max-width: 1250px) {
 		header {
 			gap: 0 10px;
-			padding: 0 10px 0 10px;
+			padding: 10px 10px 0 10px;
 		}
 		img {
 			width: 50px;

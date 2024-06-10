@@ -11,43 +11,35 @@
 	</main>
 
 	<footer>
-		<p>visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to learn SvelteKit</p>
+		<div class="container">
+			<address>
+				<h3>IsyanaMerch</h3>
+				<p>Contact Us</p>
+				<p>
+					<a href="mailto:kewoooooy@com">kewoooooy@com</a>
+				</p>
+				<p>
+					<a href="tel:+1-555-555-5555">+1-555-555-5555</a>
+				</p>
+			</address>
+		</div>
 	</footer>
 </div>
 
 <style>
-	.app {
+	address {
+		font-style: normal;
 		display: flex;
 		flex-direction: column;
-		min-height: 100vh;
+		gap: 10px;
 	}
-
-	main {
-		flex: 1;
-		display: flex;
-		flex-direction: column;
-		padding: 1rem;
-		width: 100%;
-		max-width: 64rem;
-		margin: 0 auto;
-		box-sizing: border-box;
+	.container {
+		max-width: 1200px;
+		margin: auto;
+		padding: 100px 0 100px 0;
 	}
-
 	footer {
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		align-items: center;
-		padding: 12px;
-	}
-
-	footer a {
-		font-weight: bold;
-	}
-
-	@media (min-width: 480px) {
-		footer {
-			padding: 12px 0;
-		}
+		background: var(--color-bg-2);
+		margin-top: 100px;
 	}
 </style>
